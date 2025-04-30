@@ -1,39 +1,81 @@
-Backend :
-        Step 1 -> Creating Server using Express.js
-        Step 2 -> Creating application model, company model, job model, and use model Schema for DB
-        step 3 -> Creating authntication middleware with JWT Authentication
-        step 4 -> Creating controller
-                        -- user controller,Middleware and API Route to check proper register, login with JWT Authentication , logout, Update profile
-                        -- company controller and API route
-                        -- job controller with post job, get job with filtring, get admins job etc and API route
-                        -- application controller with applying job, checked applied job  means whaen user apply for job they can see their pase applied jobs, Get Applicants for admin to check how many student applied for job, Update status (accepted, pending, rejected) 
-        step 5 -> Creating Routes
-                        -- user route -> Register, login, logout, update peofile
-                        -- company eoute -> register company, get company, get company by id, update company
-                        -- job route -> post job, get all job, get admins job, get job by id
-                        -- application route -> apply job, get applied jobs, get applicants, update status
+# Job Portal Project
 
+## Backend
 
-Frontend :
-         Step 1 -> setUp shadcd ui with vite.
-         step 2 -> Create Navbar Component.
-         step 3 -> Creating Login and Signup Component with multer for  
-         file uploading.
-         step 4 -> Creating Home Page with Herosection, CategoryCarousel Section, LatestJobs Section, and Footer Section.
-         step 5 -> Creating Jobs Page with FilterCard and Job Component.
-         step 6 -> Creating Browse Page.
-         step 7 -> Creating View Profile Page.
-         step 8 -> Creating Job Description Page.
-         step 9 -> Creating profile edit dailouge page/popup.
-         step 10 -> Connecting Cloudinary to store resume and opening resume and also for profile photo.
-         step 11 -> Implenemting Logout functionality.
-         step 11 -> Get All Jobs Using Custom hook.
-         step 12 -> Implement Apply job feature.
-         step 13 -> Persist store
-         step 14 -> Building Admin Home Page.
-         step 15 -> Implement Filter Company Logic
-         step 16 -> Building Admin Job Page
-         step 17 -> Implement Applicant Page
-         step 18 -> Implement Browse Search Job Logic
-         step 19 -> Implement fIlter logic in job page
-         step 20 -> Protectiing Route
+### Step 1: Create Server using Express.js
+
+### Step 2: Create Mongoose Models
+- Application model
+- Company model
+- Job model
+- User model
+
+### Step 3: Create Authentication Middleware with JWT
+
+### Step 4: Create Controllers
+- **User Controller**: Register, Login with JWT, Logout, Update profile
+- **Company Controller**: CRUD operations for companies
+- **Job Controller**: Post job, Get jobs with filtering, Get admin jobs
+- **Application Controller**:
+  - Apply for job
+  - View applied jobs
+  - Admin can view applicants
+  - Update status (accepted, pending, rejected)
+
+### Step 5: Create Routes
+- **User Routes**: Register, Login, Logout, Update Profile
+- **Company Routes**: Register company, Get companies, Get company by ID, Update company
+- **Job Routes**: Post job, Get all jobs, Get jobs by ID, Get admin jobs
+- **Application Routes**: Apply job, Get applied jobs, Get applicants, Update status
+
+## Frontend
+
+### Step 1: Setup ShadCN UI with Vite
+
+### Step 2: Create Navbar Component
+
+### Step 3: Login & Signup Components (with Multer for file upload)
+
+### Step 4: Home Page
+- Hero Section
+- Category Carousel
+- Latest Jobs Section
+- Footer Section
+
+### Step 5: Jobs Page
+- Filter Card
+- Job Component
+
+### Step 6: Browse Page
+
+### Step 7: View Profile Page
+
+### Step 8: Job Description Page
+
+### Step 9: Profile Edit Dialog/Popup
+
+### Step 10: Cloudinary Integration
+- Upload resume
+- Upload/view profile photo
+
+### Step 11: Implement Logout Functionality
+
+### Step 12: Get All Jobs Using Custom Hook
+
+### Step 13: Implement Apply Job Feature
+
+### Step 14: Setup Persist Store
+
+### Step 15: Admin Home Page
+
+### Step 16: Implement Filter Company Logic
+
+### Step 17: Admin Job Page
+
+### Step 18: Applicant Page
+
+### Step 19: Browse Search Job Logic
+
+### Step 20: Job Page Filter Logic
+
+### Step 21: Protect Routes
